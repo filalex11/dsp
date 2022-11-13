@@ -16,7 +16,7 @@ const double period = b - a;
 const double pi = 3.1415926535898;
 
 bool check_constant(const double number, const double reference) {
-		return std::abs(number - reference) < 1e-6;
+	return std::abs(number - reference) < 1e-6;
 }
 
 double find_scalar(const std::vector<double> &u1, const std::vector<double> &u2) {
